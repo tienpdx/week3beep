@@ -2,7 +2,8 @@ function test(numInput) {
 
   var numCounts = []
   var machineOut = []
-
+  // var machineOut2 = []
+  console.log(numInput)
 
   for (var i = -1; i < numInput; i ++) {
     numCounts.push(i + 1);
@@ -25,7 +26,10 @@ function test(numInput) {
     console.log(machineOut)
   }
 
-// return numCounts
+  return machineOut
+
+
+
 
 
 };
