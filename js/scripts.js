@@ -1,7 +1,7 @@
 function test(numInput) {
 
-  var numCounts = [];
-  var machineOut = [];
+  var numCounts = []
+  var machineOut = []
 
 
   for (var i = -1; i < numInput; i ++) {
@@ -9,7 +9,7 @@ function test(numInput) {
     console.log(numCounts);
   }
 
-  for (var i = 0; i < numInput; i++) {
+  for (var i = 0; i <= numInput; i++) {
     if (numCounts[i] == 1) {
       machineOut[i] = "beep";
     }
