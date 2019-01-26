@@ -24,12 +24,18 @@ function test(numInput) {
       machineOut[i] = numCounts[i]
     }
     console.log(machineOut)
+    console.log(machineOut[i])
   }
 
   return machineOut
 
+//experimenting
 
-
+    // console.log(machineOut[i])
+    // console.log(indexM)
+    // // var indexM = indexM.tostring();
+    // //
+    // // console.log(indexM)
 
 
 };
